@@ -1,0 +1,46 @@
+footer {
+    background-color:#f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 50px;
+     
+  
+  .footer-link, .footer-text{
+    text-decoration: none;
+  }
+  
+  .footer-text {
+   color: rgb(77, 77, 77);
+   font-weight: 110;
+   font-size: 10px;
+  }
+  
+  .footer-link {
+    font-size: 15px;
+    color: #3a8dfe;
+  }
+  
+  span {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .svg-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.35s;  
+}
+  
+  .icons-img, .svg-icon {
+    filter: invert(48%) sepia(35%) saturate(3925%) hue-rotate(197deg) brightness(101%) contrast(99%);
+  }
+  .svg-icon:hover {
+    transform: scale3d(1.1,1.1,1.1);
+}
+}
+  

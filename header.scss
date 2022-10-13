@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+      }
+    .header-title {
+        font-weight: 400;
+        }
+    .button {
+            display: inline-block;
+            font-weight: 400;
+            color: #fff;
+            border-radius: 4px;
+            background-color: #027bfe;
+            padding: 8px 12px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+             }
+
+    .button:hover {
+    background-color: #0266d2;
+  }
+}
+
+  
+
+    
+  
